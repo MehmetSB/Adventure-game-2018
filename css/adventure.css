@@ -1,0 +1,76 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color:  #737373;
+	font-family: sans-serif;
+}
+
+#level_title {
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+#inventoryItem{
+	margin-top: 600px;
+	display: block;
+	margin-left: 920px;
+}
+
+button{
+  color: white;
+  padding: 10px 32px;
+  display: inline-block;
+  font-size: 23px;
+	background: black;
+	border: 2px;
+	border-style: solid;
+	border-color: silver;
+}
+
+#option1{
+	position: absolute;
+	transform: translate(-75%, -50%);
+	text-align: center;
+	left: 25%;
+	margin-top: 30px;
+}
+
+#option2{
+	position: absolute;
+  transform: translate(-50%, -50%);
+	text-align: center;
+	left: 50%;
+	margin-top: 30px;
+}
+
+#option3{
+	position: absolute;
+	transform: translate(-25%, -50%);
+	text-align: center;
+	left: 75%;
+	margin-top: 30px;
+}
+
+#h1{
+	position: absolute;
+	font-size: 30px;
+	margin-bottom: 50px;
+	background-color: silver;
+	bottom: 0;
+	margin-left: 15px;
+
+}
+#level_image{
+	background-size: cover;
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:-1;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
